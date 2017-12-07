@@ -1,0 +1,885 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.warp{
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar{
+    float: left;
+    width: 280px;
+    height: 100%;
+    background: #72a0ff;
+}
+
+.subject {
+    position: relative;
+    float: right;
+    width: calc(100% - 280px);
+    height: 100%;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+}
+
+.title{
+     width: 280px;
+     height: 50px;
+     padding-top:10px;
+ }
+
+.title img{
+    display: block;
+    margin: 0 auto;
+}
+
+.page{
+    float: left;
+    width: 90px;
+    height:50px;
+    background: url('../img/page.png') no-repeat 20px 15px;
+
+}
+
+.page2{
+    float: right;
+    width: 190px;
+    height:50px;
+}
+
+.page2 span{
+    line-height: 50px;
+    color: #72a0ff;
+    margin: 0 auto;
+}
+
+.nav{
+    width: 280px;
+    height: 50px;
+    background: #ffffff;
+}
+
+.nav2{
+    width: 280px;
+    height: 50px;
+    background: #72a0ff;
+}
+
+.tool{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-tool.png") no-repeat 20px 15px;
+}
+
+.tool2{
+    float: right;
+    width: 190px;
+    height:50px;
+
+}
+
+.tool2 span{
+    line-height:50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.per{
+    float:left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-per.png") no-repeat 20px 15px;
+}
+
+.per2{
+    float: left;
+    width: 165px;
+    height: 50px;
+}
+
+.per2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.arrow{
+    float: left;
+    width: 25px;
+    height: 50px;
+    background: url("../img/arrow.png") no-repeat 0 15px;
+}
+
+.file{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-file.png") no-repeat 20px 15px;
+}
+
+.file2{
+    float: right;
+    width: 190px;
+    height: 50px;
+
+}
+
+.file2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.vision{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-vision.png") no-repeat 20px 15px;
+}
+
+.vision2{
+    float: left;
+    width: 165px;
+    height: 50px;
+}
+
+.vision2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.world{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-world.png") no-repeat 20px 15px;
+}
+
+.world2{
+    float: right;
+    width: 190px;
+    height: 50px;
+}
+
+.world2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.grade{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-grade.png") no-repeat 20px 15px;
+
+}
+
+.grade2{
+    float: left;
+    width: 165px;
+    height: 50px;
+
+}
+
+.grade2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.water{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-water.png") no-repeat 20px 15px;
+
+}
+
+.water2{
+    float: left;
+    width: 165px;
+    height: 50px;
+}
+
+.water2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.news{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-news.png") no-repeat 20px 15px;
+}
+
+.news2{
+    float: left;
+    width: 165px;
+    height: 50px;
+}
+
+.news2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.examine{
+    float: left;
+    width: 90px;
+    height: 50px;
+    background: url("../img/icon-examine.png") no-repeat 20px 15px;
+}
+
+.examine2{
+    float: right;
+    width: 190px;
+    height: 50px;
+}
+
+.examine2 span{
+    line-height: 50px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.content-header{
+    width: 100%;
+    height: 60px;
+}
+
+.head{
+    float: right;
+    width: 420px;
+    height: 60px;
+}
+
+.code{
+    float: left;
+    width: 130px;
+    height: 60px;
+    background: url("../img/code.png") no-repeat 0 center;
+}
+
+.code span{
+    color: black;
+    line-height: 60px;
+    margin: 0 auto;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.download{
+    float: left;
+    width: 160px;
+    height: 60px;
+    background: url("../img/download.png") no-repeat 0 center;
+}
+
+.download span{
+    color: black;
+    line-height: 60px;
+    margin: 0 auto;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.close{
+    float: left;
+    width: 110px;
+    height: 60px;
+    background: url("../img/close.png") no-repeat 0 center;
+}
+
+.close span{
+    color: black;
+    line-height: 60px;
+    margin: 0 auto;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.shop-title{
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+
+}
+
+.shop-code{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+
+.shop{
+    float: left;
+    width: 830px;
+    height: 400px;
+    padding: 20px;
+}
+
+.date{
+    float: left;
+    width: 320px;
+    height: 60px;
+    background: #ffffff;
+    padding-left: 20px;
+
+}
+
+.date span{
+    width: 320px;
+    height: 60px;
+    color: #72a0ff;
+    line-height: 60px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.date2{
+    width: 480px;
+    height: 60px;
+    float: right;
+}
+
+.date2-ul{
+    width: 480px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.date2-ul li{
+    float: left;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    background: #72a0ff;
+    cursor: pointer;
+}
+.date2-ul li.active{
+    color: #72a0ff;
+    background: #fff;
+}
+
+.date2-ul li:hover{
+    color: #72a0ff;
+    background: #fff;
+}
+
+.shop-menu{
+    width: 830px;
+    height: 340px;
+    background: white;
+}
+
+.shop-menu-top{
+    margin-left: 20px;
+    height: 157px;
+}
+.shop-menu-bto{
+    margin-left: 20px;
+    height: 157px;
+    margin-top: 10px;
+
+}
+
+.menu-vision{
+    float: left;
+    width: 248px;
+    height: 155px;
+    border: 1px solid #dddddd;
+
+}
+
+.menu-world{
+    float: left;
+    width: 248px;
+    height: 155px;
+    margin-left: 20px;
+    border: 1px solid #dddddd;
+
+}
+
+.menu-grade{
+    float: left;
+    width: 248px;
+    height: 155px;
+    margin-left: 20px;
+    border: 1px solid #dddddd;
+}
+
+.release{
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+
+}
+
+.back{
+    float: right;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.menu-date{
+    width: 248px;
+
+}
+
+.menu-proposal{
+    float: left;
+    width: 248px;
+    height: 155px;
+    border: 1px solid #dddddd;
+}
+
+.menu-complaint{
+    float: left;
+    width: 248px;
+    height: 155px;
+    margin-left: 20px;
+    border: 1px solid #dddddd;
+}
+
+.menu-report{
+    float: left;
+    width: 248px;
+    height: 155px;
+    margin-left: 20px;
+    border: 1px solid #dddddd;
+}
+
+.information{
+    float: left;
+    width: 280px;
+    height: 400px;
+    background: white;
+    margin-top: 20px;
+}
+
+.account{
+    width: 280px;
+    height: 255px;
+}
+
+.account-img{
+    width: 140px;
+    height: 140px;
+    margin: 40px auto;
+
+}
+
+.account-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.account-name{
+    text-align: center;
+    height: 20px;
+    margin-top: 5px;
+ }
+
+.account-name .have-border{
+    border-right:1px solid #000000;
+    padding-right: 5px;
+}
+
+.account-name .span{
+    height: 20px;
+    display: inline-block;
+
+}
+
+.status-department{
+    font-size: 14px;
+    color: #797979;
+    margin-left: 5px;
+}
+
+.status{
+    padding-top: 10px;
+    border-top: 1px solid #72a0ff;
+}
+
+.cover{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    opacity: inherit;
+
+}
+
+.list{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    z-index: 3;
+    width: 1000px;
+    height: 860px;
+}
+
+.list-title{
+    width: 100%;
+    height: 60px;
+    background: #72a0ff;
+}
+
+.list-content{
+    width: 100%;
+    height: 800px;
+    background: #ffffff;
+}
+
+.list-title-id{
+    float: left;
+}
+
+.list-title-id span{
+    line-height: 60px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.target-text{
+    float: left;
+}
+
+.target-text span{
+    line-height: 40px;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.list-title-back{
+    float: right;
+    width: 80px;
+    height: 60px;
+}
+
+.list-title-back span{
+    float: left;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.target-add{
+    float: right;
+    width: 80px;
+    height: 40px;
+}
+
+.target-add span{
+    float: left;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.list-title-back .back{
+    float: left;
+    height: 60px;
+    width: 15px;
+    background: url("../img/icon-back.png") no-repeat 0 25px;
+}
+
+.target-add .add{
+    float: left;
+    height: 40px;
+    width: 20px;
+    background: url("../img/icon-add.png") no-repeat 0 15px;
+}
+
+.range{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.target{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.score{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.radio{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.radio2{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.company{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.score-range{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.score-option{
+    width: calc(100% - 60px);
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.target-two{
+    width: calc(100% - 60px);
+    height: 40px;
+    margin: 0 30px;
+    background: #72a0ff;
+}
+
+.target-content{
+    width: calc(100% - 62px);
+    height: 240px;
+    margin-left: 30px;
+    border: solid 1px #72a0ff;
+}
+
+.explain{
+    width: 935px;
+    height: 150px;
+    margin: 10px 20px;
+}
+
+.form-title{
+    float: left;
+    width: 92px;
+    text-align: right;
+    line-height: 40px;
+}
+
+.form-title3{
+    float: left;
+    width: 110px;
+    text-align: right;
+    line-height: 40px;
+}
+.form-title3 .must {
+    color: red;
+}
+
+.form-title2{
+    float: left;
+    width: 175px;
+    line-height: 40px;
+}
+
+.form-title text{
+    font-size: 14px;
+}
+
+.range-frame{
+    position:relative;
+    float: left;
+    width: 840px;
+    height: 38px;
+    border: solid 1px #72a0ff;
+}
+
+.target-frame{
+    position:relative;
+    float: left;
+    width: 840px;
+    height: 38px;
+    border: solid 1px #888888;
+}
+
+.target-name{
+    position:relative;
+    float: left;
+    width: 915px;
+    height: 38px;
+}
+
+.target-explain{
+    float: left;
+    width: 782px;
+    height: 38px;
+    border: solid 1px #888888;
+}
+
+.explain-score{
+    float: left;
+    width: 782px;
+    height: 150px;
+    border: solid 1px #888888;
+}
+
+.company-frame{
+    position:relative;
+    float: left;
+    width: 740px;
+    height: 38px;
+    margin-left: 20px;
+    border: solid 1px #888888;
+}
+
+.score-option-radio{
+    position:relative;
+    float: left;
+    width: 528px;
+    height: 38px;
+    border: solid 1px #888888;
+}
+
+.range-name{
+    height: 38px;
+    width: 790px;
+    border: 0 none;
+    outline: 0 none;
+    text-indent: 10px;
+}
+
+.content-name{
+    height: 38px;
+    width: 780px;
+    border: 0 none;
+    outline: 0 none;
+    text-indent: 10px;
+}
+
+.explain-name{
+    height: 150px;
+    width: 780px;
+    border: 0 none;
+    outline: 0 none;
+    text-indent: 10px;
+}
+
+
+.company-name{
+    height: 38px;
+    width: 720px;
+    border: 0 none;
+    outline: 0 none;
+    text-indent: 10px;
+}
+
+.radio-name{
+    height: 38px;
+    width: 528px;
+    border: 0 none;
+    outline: 0 none;
+    text-indent: 10px;
+}
+
+.range-frame .icon-select{
+     position: absolute;
+     right: 0;
+     top: 0;
+     display: block;
+     width: 38px;
+     height: 38px;
+     background: url("../img/icon-select.png") no-repeat center center;
+}
+
+.company-frame .icon-select{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 38px;
+    height: 38px;
+    background: url("../img/icon-select.png") no-repeat center center;
+}
+
+.form-title .must{
+    color: red;
+}
+
+.form-title2 .must{
+    color: red;
+}
+
+.form-radio{
+    float: left;
+    height: 40px;
+}
+
+.form-radio label{
+    float: left;
+    font-size: 14px;
+    margin: 10px 20px;
+}
+
+.form-p{
+    color: #fc7d02;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.radio-select {
+    color: #888888;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.radio-select:hover{
+    color: #72a0ff;
+    text-decoration: underline;
+
+}
+
+.option-select{
+    color: #888888;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.option-select:hover{
+    color: #72a0ff;
+    text-decoration: underline;
+
+}
+
+.target-content-title{
+    width: 935px;
+    height: 40px;
+    margin: 10px 20px;
+}
+

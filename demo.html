@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="warp">
+        <div class="sidebar">
+            <div class="title">
+                <img src="./img/logo_hei.png">
+            </div>
+            <div class="nav">
+                <div class="page">
+
+                </div>
+                <div class="page2">
+                    <span class="span">首页</span>
+                </div>
+            </div>
+            <div class="nav2">
+                <div class="tool">
+
+                </div>
+                <div class="tool2">
+                    <span class="span">组织机构设置</span>
+                </div>
+
+            </div>
+            <div class="nav2">
+                <div class="per">
+
+                </div>
+                <div class="per2">
+                    <span class="span">权限设置</span>
+                </div>
+                <div class="arrow">
+
+                </div>
+            </div>
+            <div class="nav2">
+                <div class="file">
+
+                </div>
+                <div class="file2">
+                    <span class="span">通知公告</span>
+                </div>
+            </div>
+            <div class="nav2">
+                <div class="vision">
+
+                </div>
+                <div class="vision2">
+                    <span class="span">专项督查</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="nav2">
+                <div class="world">
+
+                </div>
+                <div class="world2">
+                    <span class="span">社会评价</span>
+                </div>
+            </div>
+            <div class="nav2">
+                <div class="grade">
+
+                </div>
+                <div class="grade2">
+                    <span class="span">目标考评</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="nav2">
+                <div class="water">
+
+                </div>
+                <div class="water2">
+                    <span class="span">昆明治水</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="nav2">
+                <div class="news">
+
+                </div>
+                <div class="news2">
+                    <span class="span">信息公开</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="nav2">
+                <div class="examine">
+
+                </div>
+                <div class="examine2">
+                    <span class="span">企业审核</span>
+                </div>
+            </div>
+        </div>
+        <div class="subject">
+            <div class="list" id="list" style="display: none">
+                <div class="list-title">
+                    <div class="list-title-id">
+                        <span class="span">新增评分表单</span>
+                    </div>
+                    <div id="back" class="list-title-back">
+                        <div class="back" ></div>
+                        <span class="span">取消</span>
+                    </div>
+                </div>
+                <div class="list-content">
+                    <div class="range">
+                        <div class="form-title">
+                            <em class="must">*</em>
+                            <span class="text">考核范围：</span>
+                        </div>
+                        <div class="range-frame">
+                            <input type="text" class="range-name"/>
+                            <i class="icon-select"></i>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="target">
+                        <div class="form-title">
+                            <em class="must">*</em>
+                            <span class="text">一级目标：</span>
+                        </div>
+                        <div class="target-frame">
+                            <input type="text" placeholder="请填写目标名称" class="range-name"/>
+                        </div>
+                    </div>
+                    <div class="score">
+                        <div class="form-title">
+                            <span class="text">总&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分：</span>
+                        </div>
+                        <div class="target-frame">
+                            <input type="text" placeholder="请填写目标总分" class="range-name"/>
+                        </div>
+                    </div>
+                    <div class="radio">
+                        <div class="form-title2">
+                            <em class="must">*</em>
+                            <span class="text">是否单项评分：</span>
+                        </div>
+                        <div class="form-radio">
+                            <label><input type="radio" name="name">是</label>
+                            <label><input type="radio" name="name">否</label>
+                        </div>
+                        <p class="form-p">（是：每个二级目标显示一个评分填写框 ;否：只显示一级目标的总分填写框）</p>
+
+                    </div>
+                    <div class="radio2">
+                        <div class="form-title2">
+                            <em class="must">*</em>
+                            <span class="text">是否按目标内容评分：</span>
+                        </div>
+                        <div class="form-radio">
+                            <label><input type="radio" name="name2">是</label>
+                            <label><input type="radio" name="name2">否</label>
+                        </div>
+                        <p class="form-p">（是：根据实际目标内容评分；否：不根据实际目标内容评分）</p>
+                    </div>
+                    <div class="company">
+                        <div class="form-title2">
+                            <em class="must">*</em>
+                            <span class="text">考核牵头单位：</span>
+                        </div>
+                        <div class="company-frame">
+                            <input type="text" placeholder="请选择考核牵头单位" class="company-name"/>
+                            <i class="icon-select"></i>
+                        </div>
+                    </div>
+                    <div class="score-range">
+                        <div class="form-title2">
+                            <em class="no-must">&nbsp;&nbsp;</em>
+                            <span class="text">考核单位考评范围：</span>
+                        </div>
+                        <div class="form-radio">
+                            <label><input type="radio" name="name3">所有被考评单位</label>
+                            <label><input type="radio" name="name3">其他</label>
+                        </div>
+                            <div class="score-option-radio">
+                                <div class="radio-name">
+                                    <a class="radio-select">选择</a>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="score-option">
+                        <div class="form-title2">
+                            <em class="must">*</em>
+                            <span class="text">评分选项（评分项）：</span>
+                        </div>
+                        <div class="form-radio">
+                            <label><input type="checkbox" name="name4">加分项</label>
+                            <label><input type="checkbox" name="name4">扣分项</label>
+                            <label><input type="checkbox" name="name4">计算平均分项</label>
+                        </div>
+                        <div class="option-type">
+                            <a class="option-select">设置评分模板</a>
+                        </div>
+                    </div>
+                    <div class="target-two">
+                        <div class="target-text">
+                            <span class="span">二级目标</span>
+                        </div>
+                        <div class="target-text">
+                            <span class="span">二级目标（2）</span>
+                        </div>
+                        <div class="target-add">
+                            <div class="add"></div>
+                            <span class="span">新增</span>
+                        </div>
+                    </div>
+                    <div class="target-content">
+                        <div class="target-content-title">
+                            <div class="target-name">
+                                <div class="form-title3">
+                                    <em class="must">*</em>
+                                    <span class="text">目标名称：</span>
+                                </div>
+                                <div class="target-explain">
+                                    <input type="text" placeholder="请填写目标名称" class="content-name"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explain">
+                            <div class="form-title3">
+                                <em class="no-must">&nbsp;&nbsp;</em>
+                                <span class="text">评分说明：</span>
+                            </div>
+                            <div class="explain-score">
+                                <input type="text" placeholder="请填写评分说明" class="explain-name"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="content-header">
+                <div class="head">
+                    <div class="code" id="code">
+                        <span class="span">[二维码] 显示弹框</span>
+                    </div>
+                    <div class="download">
+                        <span class="span">[使用手册下载]</span>
+                    </div>
+                    <div class="close">
+                        <span class="span">[退出登录]</span>
+                    </div>
+                </div>
+
+        </div>
+            <div class="content">
+                <div class="shop">
+                    <div class="shop-code">
+                        <div class="shop-title">
+                            <div class="date">
+                                <span class="span">数据看板</span>
+                            </div>
+                                <div class="date2">
+                                    <ul class="date2-ul">
+                                        <li>本周</li>
+                                        <li class="active">本月</li>
+                                        <li >本季</li>
+                                        <li >本年</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <div class="shop-menu">
+                            <div class="shop-menu-top">
+                                <div class="menu-vision">
+                                    <img src="./img/menu-vision.png">
+                                    <div class="menu-date">
+                                        <div class="release">已发布：0</div>
+                                        <div class="back">已反馈：0</div>
+                                    </div>
+                                </div>
+                                <div class="menu-world">
+                                    <img src="./img/menu-world.png">
+                                    <div class="menu-date">
+                                        <div class="release">已发布：0</div>
+                                        <div class="back">已反馈：0</div>
+                                    </div>
+                                </div>
+                                <div class="menu-grade">
+                                    <img src="./img/menu-grade.png">
+                                    <div class="menu-date">
+                                        <div class="release">已发布：0</div>
+                                        <div class="back">已反馈：0</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-menu-bto">
+                                <div class="menu-proposal">
+                                    <img src="./img/menu-proposal.png">
+                                    <div class="menu-date">
+                                        <div class="release">已发布：0</div>
+                                        <div class="back">已反馈：0</div>
+                                    </div>
+                                </div>
+                                <div class="menu-complaint">
+                                    <img src="./img/menu-complaint.png">
+                                    <div class="menu-date">
+                                        <div class="release">已发布：0</div>
+                                        <div class="back">已反馈：0</div>
+                                    </div>
+                                </div>
+                                <div class="menu-report">
+                                    <img src="./img/menu-report.png">
+                                    <div class="menu-date">
+                                        <div class="release">已发布：0</div>
+                                        <div class="back">已反馈：0</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+            </div>
+                <div class="information">
+                    <div class="account">
+                        <div class="account-img">
+                            <img src="./img/account.png">
+                        </div>
+                        <div class="account-name">
+                            <span class="span">李涛</span>
+                        </div>
+                        <div class="account-name">
+                            <span class="span have-border" >园林设计局</span>
+                            <span class="span">党群部主任</span>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="status-department">
+                            <span>所在部门：昆明市委目标管理督察办公室</span>
+                        </div>
+                        <div class="status-department">
+                            <span>部门人数：30人</span>
+                        </div>
+                        <div class="status-department">
+                            <span>最后登录：2017/2/12  14：49</span>
+                        </div>
+                        <div class="status-department">
+                            <span>最后登录IP：119.32.111.21</span>
+                        </div>
+                    </div>
+
+                </div>
+    </div>
+        </div>
+    </div>
+    <div class="cover" id="cover" style="display: none">
+
+    </div>
+
+
+
+    <script >
+      var list = document.getElementById('list');
+      var cover = document.getElementById('cover');
+      var code = document.getElementById('code');
+      var back = document.getElementById('back');
+
+      code.onclick = function () {
+          list.style.display = "block";
+          cover.style.display = "block";
+      }
+
+      back.onclick = function () {
+          list.style.display = "none";
+          cover.style.display = "none";
+
+      }
+    </script>
+</body>
+</html>
